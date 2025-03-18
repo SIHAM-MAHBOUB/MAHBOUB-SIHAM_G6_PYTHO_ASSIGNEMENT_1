@@ -366,16 +366,9 @@ print(sorted(liste))
 '''
 #correction 2 MAHBOUB SIHAM
 def inter(l1,l2):
-   
-   
     l3=list()
     for e in l1:
         if e in l2: l3.append(e)
-   
-   
-   
-   
-   
     return l3
 l1= [3,5,7,8]
 l2=[3,1]
