@@ -200,6 +200,23 @@ Pour tous ces parcours de listes, il est conseillé d'utiliser des noms de varia
 Écrivez une fonction en Python qui permette de calculer l'argmax d'une liste, c'est-à-dire l'indice auquel est stockée la valeur maximale de la liste.
 Si cette valeur maximale est présente plusieurs fois dans la liste, on retournera l'indice de sa première occurrence.
 ```
+### correction
+'''
+#correction ex1# SIHAM MAHBOUB
+2	l = [3,8,15,-1,0,12]
+3	def argmax(l):
+4	    m,k = l[0],0
+5	    for i,e in enumerate(l):
+6	        if e > m:
+7	            m=e
+8	            k=i
+9	    return m,k
+10	   
+11	l = [3,8,15,-1,0,12]
+12	
+13	ma, po =argmax(l)      
+14	print("max : ", ma, "------>", po)
+'''
 
 <div id="pad_4.1" class="pad"></div>
 <script>
