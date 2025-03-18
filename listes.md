@@ -185,7 +185,7 @@ Cela se fait à l'aide de la fonction `enumerate` :
 
 ```{code-cell}
 liste = [1, 5, 7]
-for i, elem in enumerate(liste):
+for i, elem in enumerate(liste):# l'indice et element de l'indice
     print(i, elem)
 ```
 
