@@ -539,7 +539,13 @@ L .remove(0)
 print(L)
 ''
 ##Exercices 2:
-
+ for ligne in dessin:
+ for col in ligne:
+ if col == 1:
+ print(" *", end= "")
+ else:
+ print(" ", end= "")
+ print()
 
 
 ## Liste des exercices de ce chapitre
